@@ -32,8 +32,7 @@ data = pd.DataFrame({'PHONE_NAME':phonename,
                       'ROM':rom,
                     })
 
-# Continue from your existing code...
-print(data)
+
 
 
 
