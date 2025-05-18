@@ -1,0 +1,27 @@
+This project analyzed customer reviews for various mobile phones using sentiment analysis techniques (VADER) to categorize reviews as positive, negative, or neutral and determine an overall sentiment for each phone. Additionally, it explored the relationship between phone specifications (RAM and ROM) and customer ratings through statistical analysis and visualizations (scatter plots and box plots).
+
+Plot 1: Relationship between RAM and Ratings (Scatter Plot)
+
+Description: This scatter plot shows individual phone models as points, with RAM (in GB) on the x-axis and their corresponding ratings on the y-axis.
+Insights: There's no strong linear trend. Phones with higher RAM (8GB, 12GB) have a wider spread of ratings, and lower RAM phones also achieve varying ratings. This suggests RAM alone isn't a primary determinant of the rating.
+
+Plot 2: Relationship between ROM and Ratings (Scatter Plot)
+
+Description: Similar to Plot 1, this shows the relationship between ROM (in GB) on the x-axis and ratings on the y-axis for each phone.
+Insights: Again, a clear linear relationship is not evident. Phones with 256GB ROM show a range of ratings, as do phones with lower ROM. ROM capacity by itself doesn't strongly predict the rating.
+
+Plot 3: Rating Distribution by RAM (Box Plot)
+
+Description: This box plot displays the distribution of ratings for different RAM categories (likely 3, 4, 8, and 12 GB). Each box shows the median, quartiles, and potential outliers for the ratings within each RAM group.
+Insights: The median ratings for different RAM categories appear somewhat similar, with some variation in the spread and presence of outliers. There isn't a consistent increase in median rating with higher RAM, further suggesting a weak direct relationship.
+
+Plot 4: Rating Distribution by ROM (Box Plot)
+
+Description: This box plot shows the distribution of ratings for different ROM categories (likely 64, 128, and 256 GB).
+Insights: Similar to the RAM box plot, the median ratings across different ROM sizes don't show a strong increasing trend. The distributions overlap, indicating that ROM capacity alone isn't a strong separator for higher ratings.
+
+summary :
+
+Findings: RAM and ROM alone don't strongly predict customer ratings.
+
+Conclusion: Other factors likely drive phone satisfaction more.
